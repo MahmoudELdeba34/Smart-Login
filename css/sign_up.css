@@ -1,0 +1,111 @@
+
+.centring{
+    color:red;
+    position: relative;
+    }
+    .centring::after{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 40%;
+        background-color: #fff;
+        right: 0;
+        top:50%;
+    }
+    .centring::before{
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 40%;
+        background-color: #fff;
+        left: 0;
+        top:50%;
+    }
+    .btuOne{
+       background-color: blue;
+       color: #fff;
+       width: 75%;
+       border: 1px solid black;
+       padding: 15px 25px;
+       border-radius: 50vh;
+       -webkit-border-radius: 50vh;
+       -moz-border-radius: 50vh;
+       -ms-border-radius: 50vh;
+       -o-border-radius: 50vh;
+       text-align: center;
+       margin-left: 50px;
+       transition:all 1s ;
+       -webkit-transition:all 1s ;
+       -moz-transition:all 1s ;
+       -ms-transition:all 1s ;
+       -o-transition:all 1s ;
+    }
+    .btuOne:hover{
+        background-color: rgba(0, 0, 255, 0.556);
+        color:#000;
+    }
+    .btuTwo:hover{
+        background-color: rgba(255, 0, 0, 0.101);
+        color:#000;
+    }
+    .btuTwo{
+        background-color:rgba(255, 0, 0, 0.503);
+        color: #fff;
+        width: 75%;
+        border: 1px solid black;
+        padding: 15px 25px;
+        border-radius: 50vh;
+        -webkit-border-radius: 50vh;
+        -moz-border-radius: 50vh;
+        -ms-border-radius: 50vh;
+        -o-border-radius: 50vh;
+       text-align: center;
+       margin-left: 50px;
+       transition:all 1s ;
+       -webkit-transition:all 1s ;
+       -moz-transition:all 1s ;
+       -ms-transition:all 1s ;
+       -o-transition:all 1s ;
+    }
+    .container .item{
+         border-top-left-radius: 50vh;
+         border-bottom-right-radius: 50vh;
+         padding: 100px !important;
+    }
+    .btuu{
+       transition: all 1s !important;
+       -webkit-transition: all 1s !important;
+       -moz-transition: all 1s !important;
+       -ms-transition: all 1s !important;
+       -o-transition: all 1s !important;
+    }
+    .btuu:hover{
+        color:red !important;
+    }
+    .btn1{
+        background-color: rgb(47, 148, 188);
+        padding: 15px 25px;
+        border-radius: 50vh;
+        -webkit-border-radius: 50vh;
+        -moz-border-radius: 50vh;
+        -ms-border-radius: 50vh;
+        -o-border-radius: 50vh;
+        border: 1px solid black;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+    }
+    .btn1:hover{
+        background-color: bisque;
+        color:#f88
+    }
+    .item{
+        background-image: url(../img/wp2763910.gif);
+        background-size: cover;
+    }
+    body{
+        background-image:url(../img/light-live-background-css.jpg.crdownload);
+        font-family: 'Single Day', cursive;
+    }

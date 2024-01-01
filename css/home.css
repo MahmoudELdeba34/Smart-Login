@@ -1,0 +1,20 @@
+.ayhaga{
+    background-image: url(../img/light-live-background-css.jpg.crdownload);
+    background-size: cover;
+    background-position: center center;
+
+}
+ul li a{
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+ul li a:hover{
+    color:red !important;
+    
+}
+#human{
+    color:aliceblue !important;
+}
